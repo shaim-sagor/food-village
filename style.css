@@ -9,7 +9,7 @@ h2{
     font-size: 30px;
 }
 span{
-    color: coral;
+    color: purple;
 }
 .heading-pera{
     padding-bottom: 80px;
@@ -30,7 +30,7 @@ span{
 
 .link-button{
     text-decoration: none;
-    background-image: linear-gradient(orange, tomato);
+    background-image: linear-gradient(skyblue, blue);
     padding: 20px 60px;
     color: white;
     font-weight: 700 ;
