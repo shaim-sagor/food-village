@@ -57,6 +57,7 @@ span{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    margin-bottom: 100px;
 }
 .item-container{
     display: flex;
@@ -83,6 +84,45 @@ span{
     height: 95%;
     border-radius: 30px;
 }
+
+#cusines{
+    text-align: center;
+    font-size: 40px;
+}
+
+.cusines-items{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    height: 300px;
+    margin: 10px 100px;
+    border: 2px solid grey;
+    border-radius: 10px;
+
+
+    
+}
+
+.cusines-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 250px;
+    width: 180px;
+    border: 2px solid rgb(95, 87, 87);
+    border-radius: 15px;
+    box-shadow: 5px 5px 20px rgb(105, 105, 156);
+
+    
+}
+.cusines-box img{
+    height: 90%;
+    width: 90%;
+    padding: 10px;
+    border-radius: 20px;
+}
+
 
 .visit-count{
     display: flex;
